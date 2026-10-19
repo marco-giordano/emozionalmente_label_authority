@@ -4,6 +4,8 @@ Code for the paper
 
 > M. Giordano, S. Giacomelli, C. Rinaldi, F. Graziosi,
 > **"Label Authority in Speech Emotion Recognition: Intended and Perceived Ground Truth in Emozionalmente."**
+> Accepted at the 7th IEEE International Symposium on the Internet of Sounds (IS2 2026),
+> Cannes, France, 28–30 October 2026. Proceedings forthcoming.
 
 Ground truth in speech emotion recognition (SER) is usually treated as a single
 categorical fact. Emozionalmente, an acted Italian corpus, gives every clip both
@@ -61,7 +63,11 @@ locally and are ignored by git.
 @inproceedings{giordano2026labelauthority,
   author    = {Giordano, Marco and Giacomelli, Stefano and Rinaldi, Claudia and Graziosi, Fabio},
   title     = {Label Authority in Speech Emotion Recognition: Intended and Perceived Ground Truth in Emozionalmente},
-  year      = {2026}
+  booktitle = {Proceedings of the 7th IEEE International Symposium on the Internet of Sounds (IS2)},
+  address   = {Cannes, France},
+  publisher = {IEEE},
+  year      = {2026},
+  note      = {Accepted; to appear}
 }
 ```
 
