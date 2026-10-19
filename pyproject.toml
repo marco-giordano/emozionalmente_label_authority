@@ -8,7 +8,7 @@ version = "1.0.0"
 description = "Label authority in speech emotion recognition: intended and perceived ground truth in Emozionalmente"
 readme = "README.md"
 requires-python = ">=3.11"
-license = { text = "CC-BY-NC-4.0" }
+license = { text = "MIT" }
 authors = [{ name = "Marco Giordano" }]
 dependencies = [
     "torch>=2.6", "torchaudio>=2.6", "transformers>=5.0", "h5py", "numpy", "pandas",

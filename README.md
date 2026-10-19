@@ -69,10 +69,7 @@ locally and are ignored by git.
 
 Copyright © 2026 Marco Giordano.
 
-This work is licensed under the
-[Creative Commons Attribution-NonCommercial 4.0 International License (CC BY-NC 4.0)](https://creativecommons.org/licenses/by-nc/4.0/).
-You may share and adapt it for non-commercial purposes, provided you give
-appropriate credit and indicate if changes were made. See [`LICENSE`](LICENSE).
+Released under the [MIT License](LICENSE).
 
 The license covers the code in this repository only. Emozionalmente and the
 pretrained backbones (XLS-R, HuBERT, WavLM) remain under their own licenses.
