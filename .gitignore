@@ -1,0 +1,10 @@
+# Corpus, features and generated results are never committed.
+data/
+features/
+results/
+
+.venv/
+__pycache__/
+*.pyc
+*.egg-info/
+.DS_Store

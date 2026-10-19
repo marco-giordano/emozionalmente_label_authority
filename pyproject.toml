@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "label-authority"
+version = "1.0.0"
+description = "Label authority in speech emotion recognition: intended and perceived ground truth in Emozionalmente"
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "CC-BY-NC-4.0" }
+authors = [{ name = "Marco Giordano" }]
+dependencies = [
+    "torch>=2.6", "torchaudio>=2.6", "transformers>=5.0", "h5py", "numpy", "pandas",
+    "PyYAML", "soundfile", "tqdm", "matplotlib", "seaborn",
+]
+
+[tool.setuptools]
+packages = ["label_authority"]

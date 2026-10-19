@@ -1,0 +1,10 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {"name": "1. Build labels", "type": "debugpy", "request": "launch", "module": "label_authority.labels", "cwd": "${workspaceFolder}"},
+        {"name": "2. Extract features", "type": "debugpy", "request": "launch", "module": "label_authority.features", "cwd": "${workspaceFolder}"},
+        {"name": "3. Train probe grid", "type": "debugpy", "request": "launch", "module": "label_authority.train", "cwd": "${workspaceFolder}"},
+        {"name": "4. Analysis tables", "type": "debugpy", "request": "launch", "module": "label_authority.analysis", "cwd": "${workspaceFolder}"},
+        {"name": "5. Figures", "type": "debugpy", "request": "launch", "module": "label_authority.figures", "cwd": "${workspaceFolder}"}
+    ]
+}
